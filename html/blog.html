@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Rancho&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../assets/blog.png" type="image/x-icon">
+</head>
+
+<body>
+  
+  <!-- NavBar -->
+  <header class="header" id="home">
+    <div class="containerH">
+      <div class="row v-center">
+        <div class="header-item item-left">
+          <div class="logo">
+            <a href="../index.html">Travel</a>
+          </div>
+        </div>
+        <!-- menu start here -->
+        <div class="header-item item-center">
+          <div class="menu-overlay">
+          </div>
+          <nav class="menu">
+            <div class="mobile-menu-head">
+              <div class="go-back"><i class="fa fa-angle-left"></i></div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="menu-main">
+              <li>
+                <a href="../index.html">Home</a>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Better Places <i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item text-center">
+                    <a href="./polynesia.html">
+                    <img src="../assets/img/menu/bora_bora.jpg" alt="Better Places">
+                    <h4 class="title">Bora Bora</h4>
+                    </a>
+                  </div>
+                  <div class="list-item text-center">
+                    <a href="./china.html">
+                    <img src="../assets/img/menu/china.jpg" alt="Better Places">
+                    <h4 class="title">Tianjin</h4>
+                    </a>
+                  </div>
+                  <div class="list-item text-center">
+                    <a href="./egypt.html">
+                    <img src="../assets/img/menu/egypt.jpg" alt="Better Places">
+                    <h4 class="title">Giza</h4>
+                    </a>
+                  </div>
+                  <div class="list-item text-center">
+                    <a href="./greece.html">
+                    <img src="../assets/img/menu/greece.jpg" alt="Better Places">
+                    <h4 class="title">Santorini</h4>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Destinations<i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                                <div class="list-item">
+                                    <h4 class="title">Asia</h4>
+                                    <ul>
+                                      <li><a href="./china.html">China</a></li>
+                                      <li><a href="./japan.html">Japan</a></li>
+                                      <li><a href="./south_korea.html">South Korea</a></li>
+                                      <li><a href="./india.html">India</a></li>
+                                      <li><a href="./emirates.html">Arab Emirates</a></li>
+                                    </ul>
+                                    <h4 class="title">Oceania</h4>
+                                    <ul>
+                                      <li><a href="./polynesia.html">French Polynesia</a></li>
+                                      <li><a href="./australia.html">Australia</a></li>
+                                      <li><a href="./new_zealand.html">New Zealand</a></li>
+                                    </ul>
+                                </div>
+                                <div class="list-item">
+                                  <h4 class="title">Europe</h4>
+                                  <ul>
+                                    <li><a href="./swiss.html">Swiss</a></li>
+                                    <li><a href="./britain.html">Britain</a></li>
+                                    <li><a href="./greece.html">Greece</a></li>
+                                    <li><a href="./italy.html">Italy</a></li>
+                                  </ul>
+                                    <h4 class="title">Africa</h4>
+                                  <ul>
+                                    <li><a href="./south_africa.html">South Africa</a></li>
+                                    <li><a href="./kenya.html">Kenya</a></li>
+                                    <li><a href="./egypt.html">Egypt</a></li>
+                                    <li><a href="./morocco.html">Morocco</a></li>
+                                    </ul>
+                                </div>
+                                <div class="list-item">
+                                  <h4 class="title">America</h4>
+                                  <ul>
+                                    <li><a href="./mexico.html">Mexico</a></li>
+                                    <li><a href="./colombia.html">Colombia</a></li>
+                                    <li><a href="./united.html">Unites States</a></li>
+                                    <li><a href="./canada.html">Canada</a></li>
+                                    <li><a href="./peru.html">Peru</a></li>
+                                    <li><a href="./brazil.html">Brazil</a></li>
+                                    <li><a href="./chile.html">Chile</a></li>
+                                    <li><a href="./argentina.html">Argentina</a></li>
+                                    <li><a href="./paraguay.html">Paraguay</a></li>
+                                  </ul>
+                                </div>
+                                <div class="list-item">
+                                  <img src="../assets/img/menu/mexico.jpg" alt="Tours">
+                                </div>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Blog<i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./blog1.html">Blog 1</a></li>
+                    <li><a href="./blog2.html">Blog 2</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Pages<i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="./aboutus.html">About US</a></li>
+                    <li><a href="./signin&up.html">Login</a></li>
+                    <li><a href="./admin.html">Admin</a></li>
+                    <li><a href="./404.html">404 Page</a></li>
+                    <li><a href="./email_newsletter.html">Email Newsletter</a></li>
+                    <li><a href="./gallery.html">Video Gallery</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- menu end here -->
+        <div class="header-item item-right">
+          <a href="#"><i class="fa-brands fa-facebook-f fb"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter tw"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in li"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram ins"></i></a>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- banner start -->
+  <section class="banner-section">
+    
+  </section>
+
+  <!-- About -->
+  <section class="about container">
+    <div class="contentBx">
+      <h2 class="titleText">Activities</h2>
+      <p class="title-text">
+        Booking flights and hotels: This is the most common activity that a travel agency does. They can help you find the best deals on flights and hotels, and they can also book your transportation and accommodation. <br> <br>
+        Obtaining visas and permits: Some countries require visitors to obtain visas or permits before they can enter. A travel agency can help you with the visa and permit application process.
+      </p>
+      <a href="#" class="btn2">Read more</a>
+    </div>
+    <div class="imgBx">
+      <img src="../assets/img/menu/banner.jpg" alt="about" class="about">
+    </div>
+  </section>
+
+  <!-- Post Filter -->
+  <div class="post-filter container">
+    <span class="filter-item active-filter" data-filter="all">All</span>
+    <span class="filter-item" data-filter="adv">Adventure</span>
+    <span class="filter-item" data-filter="motor">Motor</span>
+    <span class="filter-item" data-filter="dive">Dive</span>
+  </div>
+
+  <!-- Post Container -->
+  <div class="post container">
+    <!-- Post 1 -->
+    <div class="post-box adv">
+        <img src="../assets/blog/surf.jpg" alt="adventure" class="post-img">
+        <h2 class="category">Adventure</h2>
+        <a href="#" class="post-title">Surf</a>
+        <span class="post-date">12 July 2023</span>
+        <p class="post-description">Connect With The Nature Enjoy Riding A Surfboard, Bodyboard.</p>
+        <div class="profile">
+            <img src="../assets/blog/h.jpeg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 2 -->
+    <div class="post-box motor">
+        <img src="../assets/blog/motocross.jpg" alt="motocross" class="post-img">
+        <h2 class="category">Motor</h2>
+        <a href="#" class="post-title">Motocross</a>
+        <span class="post-date">12 July 2023</span>
+        <p class="post-description">Connect With The Nature Enjoy Outdoor Action And Adventure Sport.</p>
+        <div class="profile">
+            <img src="../assets/blog/l.jpg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 3 -->
+    <div class="post-box dive">
+        <img src="../assets/blog/dive.jpg" alt="dive" class="post-img">
+        <h2 class="category">Dive</h2>
+        <a href="#" class="post-title">Dive</a>
+        <span class="post-date">12 July 2023</span>
+        <p class="post-description">Connect With The Nature An Underwater Swimming Activity.</p>
+        <div class="profile">
+            <img src="../assets/blog/m.jpeg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 4 -->
+    <div class="post-box adv">
+        <img src="../assets/blog/climb.jpg" alt="adventure" class="post-img">
+        <h2 class="category">Adventure</h2>
+        <a href="#" class="post-title">Climb</a>
+        <span class="post-date">16 July 2023</span>
+        <p class="post-description">feel the adrenaline of going up or climbing a mountain.</p>
+        <div class="profile">
+            <img src="../assets/blog/m.jpeg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 5 -->
+    <div class="post-box motor">
+        <img src="../assets/blog/polaris.jpg" alt="polaris" class="post-img">
+        <h2 class="category">Motor</h2>
+        <a href="#" class="post-title">Car race</a>
+        <span class="post-date">16 July 2023</span>
+        <p class="post-description">The Buggy Ride Is A Sport In Which You Get The Opportunity To Drive.</p>
+        <div class="profile">
+            <img src="../assets/blog/l.jpg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 6 -->
+    <div class="post-box dive">
+        <img src="../assets/blog/turtle.jpg" alt="dive" class="post-img">
+        <h2 class="category">Dive</h2>
+        <a href="#" class="post-title">Explore</a>
+        <span class="post-date">16 July 2023</span>
+        <p class="post-description">Connect With The Nature An Underwater Swimming Activity.</p>
+        <div class="profile">
+            <img src="../assets/blog/h.jpeg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 7 -->
+    <div class="post-box adv">
+        <img src="../assets/blog/camping.jpg" alt="adventure" class="post-img">
+        <h2 class="category">Adventure</h2>
+        <a href="#" class="post-title">Camping</a>
+        <span class="post-date">18 July 2023</span>
+        <p class="post-description">
+          Connect With The Nature And Enjoy An Outdoor Activity.</p>
+        <div class="profile">
+            <img src="../assets/blog/m.jpeg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 8 -->
+    <div class="post-box motor">
+        <img src="../assets/blog/buggie.jpg" alt="motor" class="post-img">
+        <h2 class="category">Motor</h2>
+        <a href="#" class="post-title">Car race</a>
+        <span class="post-date">18 July 2023</span>
+        <p class="post-description">The Buggy Ride Is A Sport In Which You Get The Opportunity To Drive.</p>
+        <div class="profile">
+            <img src="../assets/blog/l.jpg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 9 -->
+    <div class="post-box dive">
+        <img src="../assets/blog/jellyfish.jpg" alt="dive" class="post-img">
+        <h2 class="category">Dive</h2>
+        <a href="#" class="post-title">Explore</a>
+        <span class="post-date">18 July 2023</span>
+        <p class="post-description">Connect With The Nature An Underwater Swimming Activity.</p>
+        <div class="profile">
+            <img src="../assets/blog/h.jpeg" alt="test" class="profile-img">
+            <span class="profile-name">Travel</span>
+        </div>
+    </div>
+    <!-- Post 10 -->
+    <div class="post-box adv">
+      <img src="../assets/blog/zipline.jpg" alt="adventure" class="post-img">
+      <h2 class="category">Adventure</h2>
+      <a href="#" class="post-title">Zip line</a>
+      <span class="post-date">22 July 2023</span>
+      <p class="post-description">Zip Lining Is An Action-Filled Recreational Activity.</p>
+      <div class="profile">
+          <img src="../assets/blog/m.jpeg" alt="test" class="profile-img">
+          <span class="profile-name">Travel</span>
+      </div>
+    </div>
+    <!-- Post 11 -->
+    <div class="post-box motor">
+      <img src="../assets/blog/jetsky.jpg" alt="motor" class="post-img">
+      <h2 class="category">Motor</h2>
+      <a href="#" class="post-title">Jet Sky</a>
+      <span class="post-date">22 July 2023</span>
+      <p class="post-description">Connect With The Nature Enjoy A High Speed Water Sport.</p>
+      <div class="profile">
+          <img src="../assets/blog/h.jpeg" alt="test" class="profile-img">
+          <span class="profile-name">Travel</span>
+      </div>
+    </div>
+    <!-- Post 12 -->
+    <div class="post-box dive">
+      <img src="../assets/blog/dive1.jpg" alt="dive" class="post-img">
+      <h2 class="category">Dive</h2>
+      <a href="#" class="post-title">Dive</a>
+      <span class="post-date">22 July 2023</span>
+      <p class="post-description">Connect With The Nature An Underwater Swimming Activity.</p>
+      <div class="profile">
+          <img src="../assets/blog/l.jpg" alt="test" class="profile-img">
+          <span class="profile-name">Travel</span>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="containerf">
+      <div class="rowf">
+
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#home">Better Places</a></li>
+            <li><a href="#home">Destinations</a></li>
+            <li><a href="#home">Blog</a></li>
+            <li><a href="#home">Pages</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Continents</h4>
+          <ul>
+            <li><a href="#home">Asia</a></li>
+            <li><a href="#home">Africa</a></li>
+            <li><a href="#home">America</a></li>
+            <li><a href="#home">Europe</a></li>
+            <li><a href="#home">Oceania</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Follow US</h4>
+          <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!--Copy-->
+  <section class="copy">
+    <h4>Alex GR00 &#169 2023. | All Rights Reserved.</h4>
+  </section>
+
+  <!-- Script Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"></script>
+
+  <!-- Script -->
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
